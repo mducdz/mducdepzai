@@ -37,7 +37,6 @@ local Tabs = {
         Main2=Window:AddTab({ Title="Farm Fruit" }),
         Main3=Window:AddTab({ Title="Farm Chest" }),
         Main4=Window:AddTab({ Title="Script Hop" }),
-       Main5=Window:AddTab({ Title="lin tinh" }),
 }
     Tabs.Main0:AddButton({
     Title = "Discord",
@@ -91,5 +90,13 @@ Tabs.Main1:AddButton({
     Description="",
     Callback=function()
 	loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/85e904ae1ff30824c1aa007fc7324f8f.lua"))()
+  end
+})
+
+Tabs.Main1:AddButton({
+    Title="BLUE X Hub",
+    Description="",
+    Callback=function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/EN.lua"))()
   end
 })
