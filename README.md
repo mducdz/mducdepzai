@@ -77,9 +77,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/re
 })
 
 Tabs.Main1:AddButton({
-    Title="GreenZ Hub",
+    Title="MARU Hub",
     Description="",
     Callback=function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaAnarchist/GreenZ-Hub/refs/heads/main/KaitunDoughKing.lua"))()
+	 getgenv().Key = "MARU-CQSXE-C5SH-RNNL-63PPP-Q12TI"
+getgenv().id = "1402257125400514651"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))() 
   end
 })
