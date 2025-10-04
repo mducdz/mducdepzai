@@ -85,3 +85,11 @@ getgenv().id = "1402257125400514651"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))() 
   end
 })
+
+Tabs.Main1:AddButton({
+    Title="W AZURE Hub",
+    Description="",
+    Callback=function()
+	loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/85e904ae1ff30824c1aa007fc7324f8f.lua"))()
+  end
+})
